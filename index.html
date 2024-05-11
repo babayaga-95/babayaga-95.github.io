@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Μινυγράμματα</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=NOW&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/minigrammata.png" alt="Μινυγράμματα Λογότυπο">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Αρχική</a></li>
+                    <li><a href="#about">Σχετικά</a></li>
+                    <li><a href="#submit">Υποβολή</a></li>
+                    <li><a href="#contact">Επικοινωνία</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Καλώς ήρθες στα Μινυγράμματα</h2>
+            <p>Γράφεις λογοτεχνία; Μοιράσου την!</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Σχετικά με εμάς</h2>
+            <p>Τα Μινυγράμματα είναι ένα μικρό online εκδοτικό εγχείρημα αφιερωμένο στην ορατότητα και την προώθηση της λογοτεχνίας.</p>
+        </div>
+    </section>
+
+    <section id="submit">
+        <div class="container">
+            <h2>Υπόβαλε το κείμενό σου</h2>
+            <form action="submit.php" method="POST" enctype="multipart/form-data">
+                <textarea name="literature" placeholder="Γράψε μας κάτι και υπόβαλε το κείμενό σου παρακάτω..." required></textarea>
+                <input type="file" name="file">
+                <button type="submit">Υποβολή</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Επικοινωνήσε μαζί μας</h2>
+            <p>Για οποιαδήποτε ερώτηση ή παρατήρηση, μη διστάσεις να επικοινωνήσεις μαζί μας:</p>
+            <p>Email: </p>
+          </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Μινυγράμματα.</p>
+        </div>
+    </footer>
+</body>
+</html>
